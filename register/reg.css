@@ -1,0 +1,45 @@
+body{
+	background-color: #ffe6e6;
+	background: linear-gradient(to right,#0062E6, #33AEFF);
+}
+
+.card-register{
+	border:0;
+	box-shadow: 0 0.5rem 1 rem 0 rgba(0,0,0,0,1);
+
+}
+.card-register .card-title{
+	margin-bottom: 2rem;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+.card-register .card-body{
+	padding: 2rem;
+}
+.form-register{
+	width: 100%;
+}
+.form-register .btn{
+	font-size: 70%;
+	letter-spacing: .1rem;
+	font-weight: bold;
+	padding: 1rem;
+	transition: all 0.2s;
+	border-radius: 5rem;
+}
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+}
+
+.label{
+	font-weight: 80%;
+}
+
+
+
