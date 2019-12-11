@@ -1,0 +1,84 @@
+.navbar{ background:#8B0000;}
+
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.nav-link{ margin-right: 1em !important;}
+
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+.header{
+ background-image:url('laptop.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
+}
+.description h1{
+ color:#8B0000 ;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #8B0000;
+ background:#8B0000;
+ color:#fff;
+}
+.about{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+}
+.about h1{
+ color:#F97300;
+ margin: 2em;
+}
+.about img{
+ height: 100%;
+    width: 100%;
+    border-radius: 50%
+}
+
+.about span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.about .desc{
+ padding: 2em;
+ border-left:4px solid #8B0000;
+}
+.about .desc h3{
+ color: #8B0000;
+}
+.about .desc p{
+ line-height:2;
+ color:#888;
+}
+.categories h1{
+	color:#F97300;
+}
